@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+@keyframes showAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes hideAnimation {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+#parkinLotDiv.show {
+    animation: showAnimation 1s;
+    display: flex;
+}
+
+#parkinLotDiv.hide {
+    animation: hideAnimation 1s;
+    display: flex;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+html, body {
+    background-image: url('../city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    overflow: hidden;
+}
+
+.button-wrapper {
+    margin-top: 200px;
+}
+
+.button-color {
+    background-color: #d19d01;
+}
+
+.btn-toolbar {
+    display: flow-root !important;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+}
+
+.cursor {
+    cursor: pointer;
+}
