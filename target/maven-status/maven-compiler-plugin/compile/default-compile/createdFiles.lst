@@ -1,0 +1,10 @@
+com\web\app\entity\Car.class
+com\web\app\entity\Ticket.class
+com\web\app\dao\CarDAO.class
+com\web\app\util\User.class
+com\web\app\controller\MainController.class
+com\web\app\repo\CarRepository.class
+com\web\app\util\UserInformation.class
+com\web\app\config\JpaConfiguration.class
+com\web\app\util\Auth.class
+com\web\app\util\Util.class
